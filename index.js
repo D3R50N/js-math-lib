@@ -26,3 +26,7 @@ function sumSquared(arr) {
 }
 
 console.log(extrapolateLinear([2,3,5,7,4],[1,0,0,0,1],process.argv[2]))
+
+module.exports = {
+  extrapolateLinear,
+};

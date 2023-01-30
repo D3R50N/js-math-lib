@@ -1,5 +1,6 @@
 const config = require("./config");
 
+console.log(config);
 
 const debug = {
     log: (msg) => {
@@ -10,4 +11,4 @@ const debug = {
     }, 
 }
         
-module.exports = debug;
+module.exports = {debug};

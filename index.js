@@ -1,4 +1,4 @@
-const debug = require("./config");
+const debug = require("./config").debug;
 
 /**
  * Linear extrapolation

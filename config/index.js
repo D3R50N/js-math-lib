@@ -1,6 +1,5 @@
 const config = require("./config");
 
-console.log(config);
 
 const debug = {
     log: (msg) => {
